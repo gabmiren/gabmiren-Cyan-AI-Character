@@ -76,13 +76,50 @@
       "id": "props",
       "title": "4. Props",
       "note": "Only objects the script uses, one reference each.",
-      "assets": []
+      "assets": [
+        {
+          "name": "Handheld wireless mic (master)",
+          "path": "props/mic/mic-master.png",
+          "type": "image",
+          "status": "locked",
+          "role": "Prop reference: small black creator mic, mesh grille, teal status light, USB-C base"
+        }
+      ]
     },
     {
       "id": "voice",
       "title": "5. Voice",
       "note": "Cyan's voice sample plus pronunciation clips (e.g. \"Halcyon\"). No video generation without these.",
-      "assets": []
+      "assets": [
+        {
+          "name": "01 AI roadmap – Clip 1 hook (Sterling)",
+          "path": "voice/01-ai-roadmap/clip1-hook.mp3",
+          "type": "audio",
+          "status": "locked",
+          "role": "Voice reference for the matching Seedance clip"
+        },
+        {
+          "name": "01 AI roadmap – Clip 2 prompting (Sterling)",
+          "path": "voice/01-ai-roadmap/clip2-prompting.mp3",
+          "type": "audio",
+          "status": "locked",
+          "role": "Voice reference for the matching Seedance clip"
+        },
+        {
+          "name": "01 AI roadmap – Clip 3 Claude Code + skills (Sterling)",
+          "path": "voice/01-ai-roadmap/clip3-claude-code-skills.mp3",
+          "type": "audio",
+          "status": "locked",
+          "role": "Voice reference for the matching Seedance clip"
+        },
+        {
+          "name": "01 AI roadmap – Clip 4 agents + CTA (Sterling)",
+          "path": "voice/01-ai-roadmap/clip4-agents-cta.mp3",
+          "type": "audio",
+          "status": "locked",
+          "role": "Voice reference for the matching Seedance clip"
+        }
+      ]
     },
     {
       "id": "plan",
