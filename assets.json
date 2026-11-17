@@ -7,7 +7,15 @@
       "id": "keyframe",
       "title": "1. First keyframe",
       "note": "The still the video starts from. Sets light, framing and position. Check it hardest.",
-      "assets": []
+      "assets": [
+        {
+          "name": "01 AI roadmap – first keyframe (master)",
+          "path": "keyframes/01-ai-roadmap/keyframe-01-master.png",
+          "type": "image",
+          "status": "locked",
+          "role": "Start frame for all four Seedance clips: Cyan seated in home office (day), mic in hand"
+        }
+      ]
     },
     {
       "id": "cast",
