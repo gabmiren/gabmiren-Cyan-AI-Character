@@ -34,6 +34,41 @@
           "type": "image",
           "status": "locked",
           "role": "Location reference: Halcyon office, desk and monitors, city at night"
+        },
+        {
+          "name": "Corner office – daytime (master)",
+          "path": "sets/corner-office/corner-office-day-master.png",
+          "type": "image",
+          "status": "locked",
+          "role": "Location reference: glass-walled executive office, overcast city view, walnut desk"
+        },
+        {
+          "name": "Trading floor – night (master)",
+          "path": "sets/trading-floor/trading-floor-night-master.png",
+          "type": "image",
+          "status": "locked",
+          "role": "Location reference: rows of multi-monitor desks, central walkway, city lights at the far end"
+        },
+        {
+          "name": "Boardroom – night (master)",
+          "path": "sets/boardroom/boardroom-night-master.png",
+          "type": "image",
+          "status": "locked",
+          "role": "Location reference: long walnut table, chart on wall screen, cyan cove lighting, city at night"
+        },
+        {
+          "name": "Home office – day (master)",
+          "path": "sets/home-office/home-office-day-master.png",
+          "type": "image",
+          "status": "locked",
+          "role": "Location reference: seated talking-head setup, plain warm grey wall, window light from the left"
+        },
+        {
+          "name": "Home office – night (master)",
+          "path": "sets/home-office/home-office-night-master.png",
+          "type": "image",
+          "status": "locked",
+          "role": "Location reference: same room and angle as day, lit by the brass desk lamp"
         }
       ]
     },
