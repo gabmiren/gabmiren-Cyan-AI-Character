@@ -1,0 +1,59 @@
+{
+  "project": "Cyan AI Character",
+  "repo": "gabmiren/gabmiren-cyan-ai-character",
+  "branch": "main",
+  "groups": [
+    {
+      "id": "keyframe",
+      "title": "1. First keyframe",
+      "note": "The still the video starts from. Sets light, framing and position. Check it hardest.",
+      "assets": []
+    },
+    {
+      "id": "cast",
+      "title": "2. Cast",
+      "note": "One sheet per person: clean face + headless outfit front/back. Detail close-ups sit beside the master.",
+      "assets": [
+        {
+          "name": "Cyan – character sheet (master)",
+          "path": "cast/cyan/cyan-sheet-master.png",
+          "type": "image",
+          "status": "locked",
+          "role": "Character reference: face, outfit front and back"
+        }
+      ]
+    },
+    {
+      "id": "sets",
+      "title": "3. Sets",
+      "note": "Empty location plates. Extra angles of the same room so the camera can turn.",
+      "assets": [
+        {
+          "name": "Trading desk – front angle, night (master)",
+          "path": "sets/trading-desk/desk-front-master.png",
+          "type": "image",
+          "status": "locked",
+          "role": "Location reference: Halcyon office, desk and monitors, city at night"
+        }
+      ]
+    },
+    {
+      "id": "props",
+      "title": "4. Props",
+      "note": "Only objects the script uses, one reference each.",
+      "assets": []
+    },
+    {
+      "id": "voice",
+      "title": "5. Voice",
+      "note": "Cyan's voice sample plus pronunciation clips (e.g. \"Halcyon\"). No video generation without these.",
+      "assets": []
+    },
+    {
+      "id": "plan",
+      "title": "6. Shooting plan",
+      "note": "Camera, lens, movement, light and action, written with Claude. Moderate length.",
+      "assets": []
+    }
+  ]
+}

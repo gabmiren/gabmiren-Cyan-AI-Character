@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cyan AI Character – Asset Board</title>
+<style>
+  :root {
+    --bg: #07090c; --panel: #0f1318; --line: #1d242c; --text: #e8eef2;
+    --muted: #8a97a3; --accent: #00fbf4; --warn: #f4b740;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: radial-gradient(circle at 20% -10%, #0b2a2c 0%, var(--bg) 45%);
+    color: var(--text); font: 15px/1.5 "Inter", system-ui, -apple-system, sans-serif; min-height: 100vh;
+  }
+  header { padding: 40px 32px 16px; max-width: 1200px; margin: 0 auto; }
+  h1 { margin: 0 0 4px; font-size: 28px; letter-spacing: -0.02em; }
+  h1 span { color: var(--accent); }
+  .sub { color: var(--muted); margin: 0; }
+  main { max-width: 1200px; margin: 0 auto; padding: 8px 32px 64px; }
+  section { margin-top: 32px; }
+  section h2 { font-size: 16px; margin: 0; letter-spacing: 0.02em; }
+  section .note { color: var(--muted); margin: 4px 0 14px; font-size: 13px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  .card img { width: 100%; display: block; background: #000; }
+  .card audio { width: 100%; padding: 12px; }
+  .meta { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; }
+  .name { font-weight: 600; }
+  .role { color: var(--muted); font-size: 13px; }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 4px; }
+  .pill { font-size: 11px; padding: 2px 9px; border-radius: 999px; border: 1px solid var(--line); text-transform: uppercase; letter-spacing: 0.06em; }
+  .pill.locked { color: var(--accent); border-color: rgba(0,251,244,0.35); }
+  .pill.draft { color: var(--warn); border-color: rgba(244,183,64,0.35); }
+  button {
+    background: transparent; color: var(--text); border: 1px solid var(--line); border-radius: 8px;
+    padding: 5px 10px; font: inherit; font-size: 12px; cursor: pointer;
+  }
+  button:hover { border-color: var(--accent); color: var(--accent); }
+  .empty {
+    border: 1px dashed var(--line); border-radius: 14px; padding: 18px; color: var(--muted); font-size: 13px;
+  }
+  code { color: var(--muted); font-size: 12px; word-break: break-all; }
+</style>
+</head>
+<body>
+<header>
+  <h1><span>Cyan</span> asset board</h1>
+  <p class="sub">Every locked asset, in the order it gets sent to the video model. Copy a link to paste into Higgsfield, Seedance or Claude.</p>
+</header>
+<main id="board"></main>
+<script>
+(async function () {
+  const board = document.getElementById('board');
+  let data;
+  try {
+    data = await (await fetch('assets.json', { cache: 'no-store' })).json();
+  } catch (e) {
+    board.innerHTML = '<p class="empty">Could not load assets.json.</p>';
+    return;
+  }
+  const raw = p => `https://raw.githubusercontent.com/${data.repo}/${data.branch}/${p}`;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  for (const g of data.groups) {
+    const sec = document.createElement('section');
+    let html = `<h2>${esc(g.title)}</h2><p class="note">${esc(g.note)}</p>`;
+    if (!g.assets.length) {
+      html += '<div class="empty">Nothing locked yet.</div>';
+    } else {
+      html += '<div class="grid">' + g.assets.map(a => {
+        const url = raw(a.path);
+        let media = '';
+        if (a.type === 'image') media = `<img src="${esc(a.path)}" alt="${esc(a.name)}" loading="lazy">`;
+        else if (a.type === 'audio') media = `<audio controls src="${esc(a.path)}"></audio>`;
+        return `<div class="card">${media}<div class="meta">
+          <div class="name">${esc(a.name)}</div>
+          <div class="role">${esc(a.role || '')}</div>
+          <code>${esc(a.path)}</code>
+          <div class="row">
+            <span class="pill ${esc(a.status)}">${esc(a.status)}</span>
+            <button data-url="${esc(url)}">Copy link</button>
+          </div></div></div>`;
+      }).join('') + '</div>';
+    }
+    sec.innerHTML = html;
+    board.appendChild(sec);
+  }
+
+  board.addEventListener('click', async e => {
+    const b = e.target.closest('button[data-url]');
+    if (!b) return;
+    try { await navigator.clipboard.writeText(b.dataset.url); b.textContent = 'Copied'; }
+    catch { b.textContent = 'Copy failed'; }
+    setTimeout(() => (b.textContent = 'Copy link'), 1400);
+  });
+})();
+</script>
+</body>
+</html>
