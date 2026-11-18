@@ -8,6 +8,6 @@ for t,size,y in lines:
     f=ImageFont.truetype(F,size)
     while d.textlength(t,font=f)>W-60: size-=1; f=ImageFont.truetype(F,size)
     x=(W-d.textlength(t,font=f))/2
-    s.text((x,y+2),t,font=f,fill=(0,0,0,230),stroke_width=2,stroke_fill=(0,0,0,200))
+    s.text((x,y+2),t,font=f,fill=(0,0,0,230),stroke_width=5,stroke_fill=(0,0,0,170))
     d.text((x,y),t,font=f,fill=(255,255,255,255))
-Image.alpha_composite(sh.filter(ImageFilter.GaussianBlur(2.5)),img).save('cap.png')
+Image.alpha_composite(sh.filter(ImageFilter.GaussianBlur(4)),img).save('cap.png')
