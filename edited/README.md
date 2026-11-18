@@ -13,4 +13,5 @@ Mirror of the Drive folder Cyan Clips / Edited.
 | cyan_glide_meme_v1.mp4 | Ready – "bro are you free to trade after work?" chair glide on the trading floor (Seedance 480p draft 3c0f92ed, lofi bed) |
 | cyan_glide_meme_v2.mp4 | Alt – daytime office with colleagues, chart on laptop, ElevenLabs funk track (Seedance draft 33b571ef) |
 | cyan_glide_meme_v3.mp4 | Ready (latest) – laptop shown to camera then used from halfway, quieter office (Seedance draft bbac876d) |
-| cyan_villain_futures_meme_v1.mp4 | Ready – "POV: you're a villain who trades futures on the side" (Genjutsu ccd7e6d5 480p, Jasper voice change in 3 chunks) |
+| cyan_villain_futures_meme_v1.mp4 | Alt – "POV: you're a villain who trades futures on the side" (Genjutsu ccd7e6d5 480p, Jasper voice change in 3 chunks) |
+| cyan_villain_futures_meme_v2.mp4 | Ready (preferred) – own TTS voice aligned to the ref timing + order-filled SFX at 10.15s |
