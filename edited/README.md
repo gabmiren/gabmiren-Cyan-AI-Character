@@ -19,7 +19,7 @@ Mirror of the Drive folder Cyan Clips / Edited.
 | cyan_villain_futures_meme_v4.mp4 | Ready (preferred) – voice re-timed to mouth movement (0.25s, 2.72s, 6.38s), SFX at 4.5/6.7/8.9s |
 
 ## Text posts (planfomo style, 19 Nov 2026)
-Static white Poppins text over the cyan background loops, lofi bed, -14 LUFS. Built with edit/07-text-posts (no credits).
+Static white Poppins text over the cyan background loops, lofi bed, -14 LUFS. Built with edit/07-text-posts (no credits). v2 = same visuals with the user's track (edit/07-text-posts/audio_e2498711-1119.mp3) from 0s, 1s fade-out; v2 preferred.
 
 | File | Background | Length | Status |
 |---|---|---|---|
