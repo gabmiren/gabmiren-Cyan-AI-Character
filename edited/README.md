@@ -17,3 +17,14 @@ Mirror of the Drive folder Cyan Clips / Edited.
 | cyan_villain_futures_meme_v2.mp4 | Alt – own TTS voice aligned to the ref timing + order-filled SFX at 10.15s |
 | cyan_villain_futures_meme_v3.mp4 | Alt – TTS voice + order-filled SFX at 4.5s, 6.7s, 8.9s matching the ref |
 | cyan_villain_futures_meme_v4.mp4 | Ready (preferred) – voice re-timed to mouth movement (0.25s, 2.72s, 6.38s), SFX at 4.5/6.7/8.9s |
+
+## Text posts (planfomo style, 19 Nov 2026)
+Static white Poppins text over the cyan background loops, lofi bed, -14 LUFS. Built with edit/07-text-posts (no credits).
+
+| File | Background | Length | Status |
+|---|---|---|---|
+| cyan_glossary_text_v1.mp4 | bg_01_cyan_desk | 15.1s | draft |
+| cyan_readbackwards_text_v1.mp4 | bg_03_rainy_window | 7.5s | draft |
+| cyan_headtrader_rules_text_v1.mp4 | bg_05_six_screens | 15.1s | draft |
+| cyan_sessions_ranked_text_v1.mp4 | bg_07_trading_floor | 15.1s | draft |
+| cyan_trailing_drawdown_text_v1.mp4 | bg_08_order_book_coffee | 15.1s | draft, check against Halcyon's real drawdown rules |

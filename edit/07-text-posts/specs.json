@@ -1,0 +1,71 @@
+{
+  "p1_glossary": {"bg": "bg_01_cyan_desk", "loops": 2, "music": 4, "y": 230, "lines": [
+    "Futures terms the intern",
+    "learned in week one:",
+    "",
+    "NQ → Nasdaq-100 futures",
+    "ES → S&P 500 futures",
+    "MNQ → Micro NQ, 1/10 the size",
+    "RTH → Regular trading hours",
+    "DOM → Depth of Market",
+    "Tick → Smallest price move",
+    "Eval → The test to get funded",
+    "DD → Drawdown, your loss limit",
+    "Payout → Money hits your account"
+  ]},
+  "p2_backwards": {"bg": "bg_03_rainy_window", "loops": 1, "music": 30, "align": "center", "y": 250, "lh": 1.45, "lines": [
+    "The smaller you size",
+    "The calmer you trade.",
+    "The calmer you trade",
+    "The longer you last.",
+    "The longer you last",
+    "The more you get paid.",
+    "(Now read it backwards)"
+  ]},
+  "p3_rules": {"bg": "bg_05_six_screens", "loops": 2, "music": 50, "y": 210, "lines": [
+    "Rules the head trader gave",
+    "me on day one:",
+    "",
+    "1. No trades in the first 5 minutes",
+    "2. Stop goes in before the entry",
+    "3. Max 3 trades a day",
+    "4. Two losses, laptop closes",
+    "5. Never widen your stop",
+    "6. Size down after a loss",
+    "7. Sit out CPI, FOMC and NFP",
+    "8. Journal every trade",
+    "9. Guard the drawdown first",
+    "10. Bored? You're done for today"
+  ]},
+  "p4_sessions": {"bg": "bg_07_trading_floor", "loops": 2, "music": 64, "y": 220, "size": 31, "lines": [
+    "Futures sessions ranked by how",
+    "much the intern suffers:",
+    "",
+    "S → Lunch chop",
+    "     Stopped out 4 times in 6 ticks",
+    "A → NY open",
+    "     90 seconds of pure fear",
+    "B → London",
+    "     3am alarm for one fakeout",
+    "C → Power hour",
+    "     Fine until the last 10 minutes",
+    "D → Asia",
+    "     Peaceful. Suspiciously peaceful."
+  ]},
+  "p5_drawdown": {"bg": "bg_08_order_book_coffee", "loops": 2, "music": 12, "y": 230, "size": 31, "lines": [
+    "Trailing drawdown, explained",
+    "like you're the intern:",
+    "",
+    "Start: $50,000 → Floor: $48,000",
+    "",
+    "You make $1,000",
+    "→ Floor moves up to $49,000",
+    "",
+    "You lose $500",
+    "→ Floor stays at $49,000",
+    "",
+    "It follows your best balance up,",
+    "never down. Touch the floor and",
+    "the account is done."
+  ]}
+}
