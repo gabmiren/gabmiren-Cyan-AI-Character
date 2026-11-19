@@ -30,3 +30,5 @@ Static white Poppins text over the cyan background loops, lofi bed, -14 LUFS. Bu
 | cyan_trailing_drawdown_text_v1.mp4 | bg_08_order_book_coffee | 15.1s | draft, check against Halcyon's real drawdown rules |
 
 v3 (logo backgrounds, user's track): glossary on bg_01_logo, read-backwards on bg_09_logo (9.5s), head trader rules on bg_05_logo, sessions ranked on bg_10_logo, trailing drawdown on bg_08_logo. v3 preferred.
+
+v4: all posts exactly 10s (logo loop retimed 9.54s to 10s so it stays seamless), background blurred slightly (gblur sigma 2.2, text stays sharp), first 10s of user track with 1s fade. v4 preferred.
