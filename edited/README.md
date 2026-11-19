@@ -34,3 +34,5 @@ v3 (logo backgrounds, user's track): glossary on bg_01_logo, read-backwards on b
 v4: all posts exactly 10s (logo loop retimed 9.54s to 10s so it stays seamless), background blurred slightly (gblur sigma 2.2, text stays sharp), first 10s of user track with 1s fade. v4 preferred.
 
 cyan_readbackwards_text_v5.mp4: new copy (calmer / better / more you get paid), otherwise same as v4. Preferred.
+
+Scheduled (Metricool, Halcyon #2, TikTok): cyan_readbackwards_text_v5 at 9pm MYT 19 Nov ('Size down and the payouts take care of themselves'); cyan_stairs_meme_v1 at 6am MYT 20 Nov ('Priorities done right').
