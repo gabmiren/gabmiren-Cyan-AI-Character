@@ -28,3 +28,5 @@ Static white Poppins text over the cyan background loops, lofi bed, -14 LUFS. Bu
 | cyan_headtrader_rules_text_v1.mp4 | bg_05_six_screens | 15.1s | draft |
 | cyan_sessions_ranked_text_v1.mp4 | bg_07_trading_floor | 15.1s | draft |
 | cyan_trailing_drawdown_text_v1.mp4 | bg_08_order_book_coffee | 15.1s | draft, check against Halcyon's real drawdown rules |
+
+v3 (logo backgrounds, user's track): glossary on bg_01_logo, read-backwards on bg_09_logo (9.5s), head trader rules on bg_05_logo, sessions ranked on bg_10_logo, trailing drawdown on bg_08_logo. v3 preferred.
