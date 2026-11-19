@@ -32,3 +32,5 @@ Static white Poppins text over the cyan background loops, lofi bed, -14 LUFS. Bu
 v3 (logo backgrounds, user's track): glossary on bg_01_logo, read-backwards on bg_09_logo (9.5s), head trader rules on bg_05_logo, sessions ranked on bg_10_logo, trailing drawdown on bg_08_logo. v3 preferred.
 
 v4: all posts exactly 10s (logo loop retimed 9.54s to 10s so it stays seamless), background blurred slightly (gblur sigma 2.2, text stays sharp), first 10s of user track with 1s fade. v4 preferred.
+
+cyan_readbackwards_text_v5.mp4: new copy (calmer / better / more you get paid), otherwise same as v4. Preferred.
