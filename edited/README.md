@@ -38,3 +38,5 @@ cyan_readbackwards_text_v5.mp4: new copy (calmer / better / more you get paid), 
 Scheduled (Metricool, Halcyon #2, TikTok): cyan_readbackwards_text_v5 at 9pm MYT 19 Nov ('Size down and the payouts take care of themselves'); cyan_stairs_meme_v1 at 6am MYT 20 Nov ('Priorities done right').
 
 Trading terms series (23 Nov): cyan_trading_terms_pt1_v1 (basics: long, short, bid, ask, spread, order types, stop, slippage, scalp) on bg_05_logo; cyan_trading_terms_pt2_v1 (VWAP, POC, HOD/LOD, ORB, BOS, CHoCH, FVG, OB, R:R) on bg_10_logo. Same v4 recipe: 10s, slight blur, user track.
+
+Decision 23 Nov: no background blur going forward. cyan_trading_terms_pt1_v2 / pt2_v2 = no-blur versions (preferred).
