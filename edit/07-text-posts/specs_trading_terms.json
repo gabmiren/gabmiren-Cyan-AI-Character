@@ -1,0 +1,32 @@
+{
+ "p6_terms1": {"y": 220, "size": 29, "lines": [
+  "Trading terms you need",
+  "to know (Part 1):",
+  "",
+  "Long → You profit if price goes up",
+  "Short → You profit if price goes down",
+  "Bid → Best price buyers will pay",
+  "Ask → Best price sellers will take",
+  "Spread → Gap between bid and ask",
+  "Market order → Fills now",
+  "Limit order → Fills at your price",
+  "Stop loss → Auto exit at your max loss",
+  "Slippage → Filled worse than expected",
+  "Scalp → In and out within minutes"
+ ]},
+ "p7_terms2": {"y": 220, "size": 29, "lines": [
+  "Trading terms you need",
+  "to know (Part 2):",
+  "",
+  "VWAP → Volume weighted average price",
+  "POC → Point of Control, busiest price",
+  "HOD → High of the day",
+  "LOD → Low of the day",
+  "ORB → Opening range breakout",
+  "BOS → Break of structure",
+  "CHoCH → Change of character",
+  "FVG → Fair value gap",
+  "OB → Order block",
+  "R:R → Risk to reward ratio"
+ ]}
+}
