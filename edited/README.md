@@ -40,3 +40,10 @@ Scheduled (Metricool, Halcyon #2, TikTok): cyan_readbackwards_text_v5 at 9pm MYT
 Trading terms series (23 Nov): cyan_trading_terms_pt1_v1 (basics: long, short, bid, ask, spread, order types, stop, slippage, scalp) on bg_05_logo; cyan_trading_terms_pt2_v1 (VWAP, POC, HOD/LOD, ORB, BOS, CHoCH, FVG, OB, R:R) on bg_10_logo. Same v4 recipe: 10s, slight blur, user track.
 
 Decision 23 Nov: no background blur going forward. cyan_trading_terms_pt1_v2 / pt2_v2 = no-blur versions (preferred).
+
+## NVIDIA traders meme (25 Nov 2026)
+Genjutsu Object Swap (job 75a453ee, 480p, 48 credits) of a cash-tossing TikTok ref, kid swapped for Cyan in his suit. Raw (no text): renders/08-nvidia-money/cyan-nvidia-money-raw-480p.mp4. Build: edit/08-nvidia-money/build.sh (upscaled to 720x1280, centred Poppins Bold caption at y=150, clip's own audio at -14 LUFS).
+
+| File | Caption | Length | Status |
+|---|---|---|---|
+| cyan_nvidia_meme_v1.mp4 | "NVIDIA traders be like" | 15.4s | Ready |
