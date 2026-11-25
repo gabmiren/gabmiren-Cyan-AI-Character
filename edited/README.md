@@ -47,3 +47,7 @@ Genjutsu Object Swap (job 75a453ee, 480p, 48 credits) of a cash-tossing TikTok r
 | File | Caption | Length | Status |
 |---|---|---|---|
 | cyan_nvidia_meme_v1.mp4 | "NVIDIA traders be like" | 15.4s | Ready |
+
+## Background rotation (25 Nov 2026)
+Rule: spread the logo loops across the week, each at most once per 7 days where possible, never back to back.
+cyan_headtrader_rules_text_v5.mp4: same copy on bg_01_cyan_desk_logo (was bg_05). cyan_sessions_ranked_text_v5.mp4: same copy on bg_08_order_book_coffee_logo (was bg_10). Current recipe (10s, no blur, user track). Spec: edit/07-text-posts/specs_rotation_25nov.json. Swapped into the 28 Nov and 29 Nov scheduled posts.

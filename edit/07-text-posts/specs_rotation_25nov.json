@@ -1,0 +1,39 @@
+{
+ "rules_bg01": {
+  "y": 210,
+  "lines": [
+   "Rules the head trader gave",
+   "me on day one:",
+   "",
+   "1. No trades in the first 5 minutes",
+   "2. Stop goes in before the entry",
+   "3. Max 3 trades a day",
+   "4. Two losses, laptop closes",
+   "5. Never widen your stop",
+   "6. Size down after a loss",
+   "7. Sit out CPI, FOMC and NFP",
+   "8. Journal every trade",
+   "9. Guard the drawdown first",
+   "10. Bored? You're done for today"
+  ]
+ },
+ "sessions_bg08": {
+  "y": 220,
+  "size": 31,
+  "lines": [
+   "Futures sessions ranked by how",
+   "much the intern suffers:",
+   "",
+   "S \u2192 Lunch chop",
+   "     Stopped out 4 times in 6 ticks",
+   "A \u2192 NY open",
+   "     90 seconds of pure fear",
+   "B \u2192 London",
+   "     3am alarm for one fakeout",
+   "C \u2192 Power hour",
+   "     Fine until the last 10 minutes",
+   "D \u2192 Asia",
+   "     Peaceful. Suspiciously peaceful."
+  ]
+ }
+}
