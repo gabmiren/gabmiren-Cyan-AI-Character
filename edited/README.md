@@ -51,3 +51,6 @@ Genjutsu Object Swap (job 75a453ee, 480p, 48 credits) of a cash-tossing TikTok r
 ## Background rotation (25 Nov 2026)
 Rule: spread the logo loops across the week, each at most once per 7 days where possible, never back to back.
 cyan_headtrader_rules_text_v5.mp4: same copy on bg_01_cyan_desk_logo (was bg_05). cyan_sessions_ranked_text_v5.mp4: same copy on bg_08_order_book_coffee_logo (was bg_10). Current recipe (10s, no blur, user track). Spec: edit/07-text-posts/specs_rotation_25nov.json. Swapped into the 28 Nov and 29 Nov scheduled posts.
+
+## FOMC skit (27 Nov 2026)
+cyan_shorting_before_fomc.mp4: "Me shorting right before FOMC". Seedance 2.5 skit (made earlier, file supplied by Gabriel). Cyan holds a short through the FOMC press conference, one huge green candle blasts through his building's roof, debris rains on him; end card "Halcyon Discord – Don't trade FOMC alone". 14.9s, 1080x1920, "AI generated" tag burned in. Scheduled Instagram Reel, Sat 28 Nov 11pm MYT, AI label on.
